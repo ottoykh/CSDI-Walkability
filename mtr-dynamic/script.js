@@ -181,7 +181,7 @@ const stations = {
   TWO: { name: "Tai Wo", coords: [22.4511, 114.1613] },
   FAN: { name: "Fanling", coords: [22.4922, 114.1388] },
   SHS: { name: "Sheung Shui", coords: [22.5012, 114.128] },
-  LOW: { name: "Lo Wu", coords: [22.5298, 114.0644] },
+  LOW: { name: "Lo Wu", coords: [22.528309810437488, 114.11326498525565] },
   OLY: { name: "Olympic", coords: [22.3179, 114.1603] },
   SUN: { name: "Sunny Bay", coords: [22.3319, 114.029] },
   TUC: { name: "Tung Chung", coords: [22.2893, 113.9414] }
@@ -318,7 +318,7 @@ const plotLine = (lineStations, color) => {
   );
   L.polyline(polylineCoords, {
     color: color,
-    weight: 5,
+    weight: 6.5,
     opacity: 0.8
   }).addTo(map);
 
