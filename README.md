@@ -1,1 +1,1 @@
-# Demo of the Walkability Mapping with CSDI
+# Demo of the Walkability Mapping with CSDI and Leaflet.js
